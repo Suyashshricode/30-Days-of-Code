@@ -29,6 +29,7 @@ public class HouseRobber {
       nums[i] = sc.nextInt();
     }
 
+    sc.close();
     System.out.println(rob(nums, n-1));
   }
 }
