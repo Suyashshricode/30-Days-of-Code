@@ -30,6 +30,7 @@ public class BuySellStock {
       prices[i] = sc.nextInt();
     }
 
+    sc.close();
     BuySellStock obj = new BuySellStock();
     System.out.println(obj.bestTimeToBuy(n, prices));
   }
